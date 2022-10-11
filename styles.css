@@ -1,20 +1,20 @@
 header {
 	height: 70px;
+	display: flex;
+	justify-content: space-between;
 }
 
-header a {
-	display: inline-block;
+* {
+	border: 1px solid brown;
 }
 
 header img {
 	height: 50px;
-	margin: 10px;
-}
-
-header img {
-	display: inline-block;
 }
 
 nav {
 	float: right;
+	background-color: white;
+	text-transform: uppercase;
 }
+
