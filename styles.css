@@ -1,0 +1,70 @@
+header {
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	padding: 3vh;
+}
+
+* {
+	border: 1px solid brown;
+}
+
+header img {
+	height: 50px;
+}
+
+nav {
+	float: right;
+	background-color: white;
+	text-transform: uppercase;
+}
+
+body {
+    margin: 50px;
+}
+
+.columns {
+    width: 100%;
+	padding: 3vh;
+}
+
+
+ .column {
+    width: 300px;
+    height: 300px;
+    padding: 3vh;
+    padding-bottom: 2vh;
+    margin: 5vh;
+    display: inline-block;
+    vertical-align:top;
+    background-color: white;
+
+ }
+
+ .container {
+	position: relative;
+	text-align: center;
+	background-image: url("images/Banner_image.png");
+	object-fit: cover;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	height: 25vh;
+	padding: 3vh;
+  }
+
+  .bottom-left {
+	
+  } 
+
+  .column img {
+	object-fit: cover;
+  }
+
+  button.button {
+	display: flex;
+	justify-content: flex-start;
+  }
+  
+
+
