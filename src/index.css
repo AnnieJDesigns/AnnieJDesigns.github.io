@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@400;500;600&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+/* universal */
+
+.html {
+  max-width: 1024px; 
+  margin: auto;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 1px;
+  font-family: 'Halant', serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 1px;
+  font-family: 'Halant', serif;
+  font-weight: 500;
+  
+}
+
+h3 {
+  font-size: 18.70px;
+  margin: 0px;
+  font-family: 'Halant', serif;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 16px;
+  margin: 1px;
+}
+
+h5 {
+  font-size: 10px;
+  margin: 1px;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 10px;
+  margin: 1px;
+  color: #585858;
+}
+
+p {
+  font-size: 10px;
+  margin: 1px;
+}
+
+body {
+  background-color: #FFF;
+}
+
+* {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 400;
+  color: #1e1e19;
+  line-height: 1.5;
+}
+/* homepage */
+
+
+#program {
+  display: flex;
+  justify-content: center;
+
+}
+
+#program-wrapper-dev {
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-gap: 24px;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+#program {
+  width:  100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#program-wrapper-graphic {
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-gap: 24px;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+#card-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 60%;
+  border: none;
+  background-color: #FFF;
+}
+
+/* .carousel-button:hover {
+  border: solid #FFF ;
+  transition: 0.1s;
+  background-color: #FFF;
+} */
+
+.carousel-button:hover h4 {
+  color: #b1df11 ;
+}
+
+/* #left-carousel-button h4 {
+  color: #F5EDDC;
+}
+#left-carousel-button:hover {
+  border: solid black;
+  transition: 0.1s;
+  background-color: black;
+} */
+
+/* #left-carousel-button:hover h4 {
+  color: white;
+} */
+
+.program-header {
+  padding: 20px 20px 40px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+}
+
+.carousel-button-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.quote {
+  padding: 20px 20px 40px 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+}
+
+.dotted-line {
+  padding: 20px 20px 40px 0px;
+  display: flex;
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+}
+
+.gap {
+  padding-top: 7px;
+}
+
+/*Button*/
+.call-to-action-btn {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.call-to-action-btn p {
+  font-weight: 400;
+}
+
+.call-to-action-btn:hover p {
+  color: #b1df11 ;
+  font-weight: 600;
+}
+
+.call-to-action-btn:hover {
+  color: white;
+
+}
+
+/* ScrollBar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FFF; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FFF;
+  border: solid black;
+  border-radius: 10px; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b1df11 ; 
+  border: #b1df11;
+} */
+
+/* Media Queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #program {
+    width: 100%;
+  }
+}
+
+/* MASSIVE devices (large desktops, 1440px and up) */
+@media (min-width: 1440px) {
+  .carousel-button-group {
+    visibility: hidden;
+  }
+}
+
+
+
+
+
+

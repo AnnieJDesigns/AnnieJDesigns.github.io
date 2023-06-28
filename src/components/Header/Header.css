@@ -1,0 +1,28 @@
+
+.header {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+}
+
+.display-image {
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+}
+
+.image {
+    width: 40px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.logo {
+    font-size: 20px;
+    font-family: 'Halant', serif;
+    font-weight: 500;
+}
